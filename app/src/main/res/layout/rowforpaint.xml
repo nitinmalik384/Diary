@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/item_background"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="3dp"
+        android:src="@drawable/painticonred"
+        android:layout_margin="10dp"
+        android:id="@+id/img_piant"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="hello world  how r u?"
+            android:gravity="center_vertical"
+
+            android:textSize="15dp"
+            android:id="@+id/paint_Title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10-08-2017"
+            android:layout_weight="2"
+            android:layout_marginLeft="12dp"
+            android:textSize="10dp"
+
+
+            android:id="@+id/paint_date"
+            />
+    </LinearLayout>
+
+</LinearLayout>

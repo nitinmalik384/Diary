@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.diary.DrawingNotes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hellomdddddddddddddddddddddddddddddddddddddddddddddddddnsdkskdskd"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="30dp"
+        android:textColor="@color/OrangeDark"
+        android:maxLines="1"
+
+        android:gravity="center"
+        android:id="@+id/marquee"
+
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"/>
+
+</LinearLayout>
